@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Search from '../components/SearchBar'
+import SearchBar from '../components/SearchBar'
 import Chats from '../components/Chats'
 const Sidebar = () => {
   return (
     <div className='sidebar'>
       <Navbar/>
-      <Search/>
+      <SearchBar />
       <Chats/>
     </div>
   )
